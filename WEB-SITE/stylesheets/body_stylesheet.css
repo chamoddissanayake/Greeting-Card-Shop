@@ -1,0 +1,13 @@
+#bd{
+	/*background-color: lightblue; */
+	/* rgb color 173.216.230*/
+	background-image: url("../images/background.jpg");
+	margin : 0px;
+}
+
+html, body{
+	max-width: 100%;
+	overflow-x: hidden;
+	position: relative; 
+	/* top: -10px; */
+}

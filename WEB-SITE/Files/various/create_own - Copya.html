@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		
+		<link rel="stylesheet" href="stylesheets/headsection_stylesheet.css">
+		<link rel="stylesheet" href="stylesheets/navbar_stylesheet.css">
+		<link rel="stylesheet" href="stylesheets/searchbox_stylesheet.css">
+		<link rel="stylesheet" href="stylesheets/body_stylesheet.css">
+		<link rel="stylesheet" href="stylesheets/footer_stylesheet.css">
+		
+	</head>
+	
+	<body id="bd">
+		<div id="headsection" >
+		<p align="right"><b> <a href="login.html">Login </a>/ <a href="register.html">Register </a> | <a href="faq.html"> FAQ </a><b></p> 
+		<br><br><br><br><br><br><br><br><br>
+		</div>
+		
+	
+	<!--  Navigation bar  start -->
+	
+	<div class="navbar">
+ 
+		<div class="dropdown">
+			<button class="dropbtn">Category</button>
+    
+			<div class="dropdown-content">
+			<a href="category.html">All Cards</a>
+			<a href="category_birthday.html">Birthday Card</a>
+			<a href="category_anniversary.html">Anniversary Card</a>
+			<a href="category_mothers.html">Mothers day Card</a>
+			<a href="category_fathers.html">Fathers day Card</a>
+			<a href="category_getwell.html">Get Well Card</a>
+			<a href="category_sympathy.html">Sympathy Card</a>
+			<a href="category_wedding.html">Wedding Card</a>
+			<a href="category_thankyou.html">Thank You Card</a>
+			<a href="category_christmas.html">Christmas Card</a>
+			</div>
+		</div> 
+		<a href="Home.html">Home</a>
+		<a href="promotions.html">Promotions</a>
+		<a href="create_own.html">Build your own card</a>
+		<a href="customer_sevice.html">Customer Service</a>
+		<a href="about_us.html">About Us</a>
+		
+		<div id="searchbox">
+		<form action="/action_page.php">
+ 
+			<input type="text" name="serch_box">
+			<input type="submit" value="Search">
+			
+			</form>
+		</div>
+	</div>
+
+
+	<!-- Navigation bar end -->
+	<br>
+	<!-- body section -->
+	
+	
+	
+	<form action="/action_page.php">
+			<fieldset style=" border:4px groove; border-radius: 10px;margin-left:600px;margin-right:300px;width:300px;height:550px;" id="reg_fieldset">
+				<legend></legend>
+				<center>
+					<h2>Build your own card</h2>
+					
+				Theme: <select placeholder="Select" style="width:240px">
+					<option value="volvo">Theme 1</option>
+					<option value="saab">Theme 2</option>
+					<option value="opel">Theme 3</option>
+					<option value="audi">Theme 4</option>
+				</select><br><br>
+				
+				
+				Enter topic:<input type="text" size="30"><br><br>
+				Number of pages:<input type="text" size="25"><br><br>
+				Width:<input type="text" size="11">  Height:<input type="text" size="11"><br><br>
+				To:<input type="text" size="40"><br><br>
+				From:<input type="text" size="37"><br><br>
+				
+				
+				
+				Quote:<textarea name="message" rows="10" cols="30">Type here.</textarea>
+
+				<br><br>
+				<input type="Submit" value="Clear" height="25" width="30" id="create_own_clear" style="background-color: #ccd1d1;font-size: 105%;">
+				<input type="button" value="Submit" height="25" width="30" id="create_own_submit" style="background-color: #4CAF50;font-size: 125%;" >
+				<a href="home.html" class="links"><input type="button" value="Cancel" height="25" width="30" id="create_own_cancel" style="background-color: #ccd1d1;font-size: 105%;"></a>
+				
+				</center>
+				
+			</fieldset>
+		</form> 
+	
+	
+	
+	
+	
+	<!-- body section -->
+	
+	<!-- Footer section start -->
+	<hr>
+	<br>	
+	
+	<a href="https://play.google.com/store?hl=en"><img src="images/store/playstore.png" height="10%" width="15%"></a>
+	<a href="https://itunes.apple.com/us/genre/ios/id36?mt=8"><img src="images/store/appstore.png" id="appstore"></a>
+	
+	
+	
+	
+	<table>
+		<col width="250">
+		<col width="250">
+		<col width="250">
+		<col width="250">
+		
+		<tr align="left">
+			<th><a href="about_us.html" class="links">About Us</a></th>
+			<th><a href="contact_us.html" class="links">Contact Us</th>
+			<th>Brand</th>
+			<th><a href="cart.html" class="links">My Account</th>
+		</tr>
+		
+		<tr align="left">
+			<th>Delivery Info</th>
+			<th>Returns</th>
+			<th>Gift vouchers</th>
+			<th>Order History</th>
+		</tr>
+		
+		<tr align="left">
+			<th>Privacy Policy</th>
+			<th>Site map</th>
+			<th>Affiliates</th>
+			<th>Wish List</th>
+		</tr>
+		
+		<tr align="left">
+			<th>Terms & Conditions</th>
+			<th></th>
+			<th>Specials</th>
+			<th>Newsletters</th>
+		</tr>
+	
+	</table>
+	
+	
+	<div id="tel">
+	<p><img src="images/phone.jpg"  height="100px" width="100px" style="float: left">Phone:<br>+94112187653<br>+94112176354<br>+94772345675<br>E-mail:<br>inquiries@xtore.com </p>
+	</div>
+	
+	
+	<p>Copyright 1995-2018 Xtore. All Rights Reserved</p>
+	<p align="right">Last Updated: 29/07/2018</p>
+	
+	<!-- Footer section end -->
+	</body>
+</html>

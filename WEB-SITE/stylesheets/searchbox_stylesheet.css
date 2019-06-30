@@ -1,0 +1,15 @@
+.searchbox-right{
+	float:right;
+}
+
+.searchbox-form{
+	padding: 10px;
+}
+
+#searchbox{
+	/* position: relative; */
+	top: 10px;
+	/* left: 480px; */
+	text-align: right;
+	right: 10px;
+}

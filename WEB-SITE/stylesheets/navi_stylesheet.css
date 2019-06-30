@@ -1,0 +1,13 @@
+.trend_cd_cir{
+	height: 150px;
+	width: 150px;
+	opacity: 0.5;
+	filter: alpha(opacity=50); 
+}
+
+.trend_cd_cir:hover {
+	height: 200px;
+	width: 200px;
+	opacity: 1.0;
+	filter: alpha(opacity=100); 
+}

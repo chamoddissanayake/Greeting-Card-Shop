@@ -1,0 +1,23 @@
+#appstore{
+	height: 11%;
+    width: 11%;
+	/* position: relative;
+	top: -16%;
+	left: -8%; */
+}
+	
+#tel{
+	/* position: relative; */
+	/* top: -120px; */
+	/* left: 920px; */
+	float:right;
+	width: 300px;
+}
+
+.links{
+	color: white;
+	text-decoration: none;
+}
+footer {
+    background-color:  #660033 ;
+}

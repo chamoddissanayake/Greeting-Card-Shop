@@ -1,0 +1,11 @@
+.card:hover {
+	height: 200px;
+	width: 220px;
+}
+
+
+#price
+{
+color:#cc7a00;
+font-family:Bauhaus 93;
+}
